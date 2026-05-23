@@ -35,7 +35,7 @@
                         Experience
                     </a>
 
-                    <a href="#projects" class="hover:text-cyan-400 transition">
+                    <a href="#api-showcase" class="hover:text-cyan-400 transition">
                         API Integration
                     </a>
 
@@ -146,7 +146,7 @@
 
                     <a
                         @click="mobileMenu=false"
-                        href="#projects"
+                        href="#api"
                         class="hover:text-cyan-400 transition"
                     >
                         API Integration

@@ -22,7 +22,7 @@
 
         <div class="mt-10 flex flex-wrap justify-center gap-4">
 
-            <a href="#projects"
+            <a href="#api-showcase"
                class="px-8 py-4 rounded-2xl bg-cyan-500 hover:bg-cyan-400 transition font-medium">
 
                 View Projects
