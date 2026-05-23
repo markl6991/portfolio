@@ -24,10 +24,10 @@
         </div>
 
         <!-- Contact Cards -->
-        <div class="grid md:grid-cols-3 gap-6 mb-16">
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
 
             <!-- Email -->
-            <div class="p-8 rounded-3xl bg-black/[0.03] dark:bg-white/5 border border-black/10 dark:border-white/10 hover:border-cyan-400 transition duration-300">
+            <div class="p-8 text-center rounded-3xl bg-black/[0.03] dark:bg-white/5 border border-black/10 dark:border-white/10 hover:border-cyan-400 transition duration-300">
 
                 <div class="text-cyan-400 text-3xl mb-5">
                     ✉
@@ -44,7 +44,7 @@
             </div>
 
             <!-- Phone -->
-            <div class="p-8 rounded-3xl bg-black/[0.03] dark:bg-white/5 border border-black/10 dark:border-white/10 hover:border-cyan-400 transition duration-300">
+            <div class="p-8 text-center rounded-3xl bg-black/[0.03] dark:bg-white/5 border border-black/10 dark:border-white/10 hover:border-cyan-400 transition duration-300">
 
                 <div class="text-cyan-400 text-3xl mb-5">
                     ☎
@@ -61,7 +61,7 @@
             </div>
 
             <!-- Location -->
-            <div class="p-8 rounded-3xl bg-black/[0.03] dark:bg-white/5 border border-black/10 dark:border-white/10 hover:border-cyan-400 transition duration-300">
+            <div class="p-8 text-center rounded-3xl bg-black/[0.03] dark:bg-white/5 border border-black/10 dark:border-white/10 hover:border-cyan-400 transition duration-300">
 
                 <div class="text-cyan-400 text-3xl mb-5">
                     📍
@@ -74,6 +74,26 @@
                 <p class="text-gray-600 dark:text-gray-400">
                     Dasmariñas, Cavite
                 </p>
+
+            </div>
+            <!-- GitHub -->
+            <div class="p-8 text-center rounded-3xl bg-black/[0.03] dark:bg-white/5 border border-black/10 dark:border-white/10 hover:border-cyan-400 transition duration-300">
+
+                <div class="text-cyan-400 text-3xl mb-5">
+                    💻
+                </div>
+
+                <h3 class="text-xl font-semibold mb-3">
+                    GitHub
+                </h3>
+
+                <a
+                    href="https://github.com/markl6991"
+                    target="_blank"
+                    class="text-gray-600 dark:text-gray-400 hover:text-cyan-400 transition break-all"
+                >
+                    github.com/markl6991
+                </a>
 
             </div>
 

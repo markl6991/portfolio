@@ -66,4 +66,130 @@
     }
 
 }
+function githubData() {
+
+return {
+
+    profile: null,
+    repos: [],
+    loading: true,
+
+    async fetchGitHub() {
+
+        try {
+
+            const profileResponse =
+                await fetch('/github-profile');
+
+            this.profile =
+                await profileResponse.json();
+
+            const repoResponse =
+                await fetch('/github-repos');
+
+            const repoData =
+                await repoResponse.json();
+
+            this.repos =
+                repoData.slice(0, 4);
+
+        } catch (error) {
+
+            console.error(error);
+
+        } finally {
+
+            this.loading = false;
+
+        }
+
+    }
+
+}
+
+}
+
+/*
+|--------------------------------------------------------------------------
+| Weather Dashboard
+|--------------------------------------------------------------------------
+*/
+
+function weatherData() {
+
+return {
+
+    city: 'Manila',
+    weather: null,
+    loading: true,
+
+    async fetchWeather() {
+
+        this.loading = true;
+
+        try {
+
+            const response =
+                await fetch('/weather?city=' + this.city);
+
+            this.weather =
+                await response.json();
+
+        } catch (error) {
+
+            console.error(error);
+
+        } finally {
+
+            this.loading = false;
+
+        }
+
+    }
+
+}
+
+}
+
+/*
+|--------------------------------------------------------------------------
+| Anime Trending
+|--------------------------------------------------------------------------
+*/
+
+function animeData() {
+
+return {
+
+    anime: [],
+    loading: true,
+
+    async fetchAnime() {
+
+        try {
+
+            const response =
+                await fetch('/anime-trending');
+
+            const data =
+                await response.json();
+
+            this.anime =
+                data.data.slice(0, 6);
+
+        } catch (error) {
+
+            console.error(error);
+
+        } finally {
+
+            this.loading = false;
+
+        }
+
+    }
+
+}
+
+}
 </script>

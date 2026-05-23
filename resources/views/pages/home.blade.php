@@ -10,7 +10,7 @@
 
     @include('sections.experience')
 
-    @include('sections.projects')
+    @include('sections.api-showcase')
 
     @include('sections.contact')
 

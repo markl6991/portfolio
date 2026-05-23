@@ -36,7 +36,7 @@
                     </a>
 
                     <a href="#projects" class="hover:text-cyan-400 transition">
-                        Projects
+                        API Integration
                     </a>
 
                     <a href="#contact" class="hover:text-cyan-400 transition">
@@ -149,7 +149,7 @@
                         href="#projects"
                         class="hover:text-cyan-400 transition"
                     >
-                        Projects
+                        API Integration
                     </a>
 
                     <a
