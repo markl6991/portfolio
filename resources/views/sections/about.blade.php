@@ -86,7 +86,7 @@
                         </h3>
 
                         <p class="text-sm text-gray-500">
-                            Projects Built
+                            Projects handled
                         </p>
 
                     </div>
