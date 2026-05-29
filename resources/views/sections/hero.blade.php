@@ -25,7 +25,7 @@
             <a href="#api-showcase"
                class="px-8 py-4 rounded-2xl bg-cyan-500 hover:bg-cyan-400 transition font-medium">
 
-                View Projects
+                Api Integration
 
             </a>
 
