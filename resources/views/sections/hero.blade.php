@@ -29,11 +29,12 @@
 
             </a>
 
-            <a href="/resume.pdf"
-               class="px-8 py-4 rounded-2xl border border-white/10 hover:border-cyan-400 transition">
-
+            <a
+                href="{{ asset('files/mark-judeo-lorenzo-cv.pdf') }}"
+                download
+                class="px-8 py-4 rounded-2xl bg-cyan-400 text-black font-semibold"
+            >
                 Download CV
-
             </a>
 
         </div>
